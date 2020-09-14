@@ -8,7 +8,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class OracleConnection {
-
+    //https://vladmihalcea.com/jdbc-driver-connection-url-strings/
     private static String URL = "jdbc:oracle:thin:@localhost:1521/jdbc_lecture";
     private static String USERNAME = "oracle";
     private static String PASSWORD = "123456";
